@@ -136,7 +136,7 @@
       "url": "https://github.com/Morce3232/DBIPatcher/releases/download/v810/DBI.810.en.nro",
       "version": "v810"
     },
-    "asset_pattern": "DBI.*.en.nro",
+    "asset_pattern": "DBI.nro",
     "category": "Homebrew Apps",
     "default": false,
     "descriptions": {
@@ -159,8 +159,9 @@
         "target_path": "/switch/DBI_ENG/DBI.nro"
       }
     ],
-    "repo": "Morce3232/DBIPatcher",
-    "source_type": "github_release"
+    "repo": "rashevskyv/dbi",
+    "source_type": "github_release",
+    "tag": "658"
   },
   "dbi_ru": {
     "asset_info": {
