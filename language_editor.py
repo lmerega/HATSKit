@@ -10,15 +10,86 @@ import time
 # --- Configuration ---
 LANG_DIR = 'languages'
 
+# --- Dark Theme Colors (HATSKit style) ---
+BG_COLOR = "#1a1a1a"
+BG_LIGHT = "#2e2e2e"
+FG_COLOR = "#e0e0e0"
+ACCENT_COLOR = "#0078d4"
+ACCENT_HOVER = "#005a9e"
+
 # --- Main Application Class ---
 class TranslationEditor(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Language Editor (v1.0.0)") 
         self.geometry("1200x750")
+        self.configure(bg=BG_COLOR)
 
         self.style = ttk.Style(self)
-        self.style.map("Custom.Treeview", background=[('selected', '#0078D7')])
+        self.style.theme_use('clam')
+        
+        # Configure dark theme for all widgets
+        self.style.configure(".", background=BG_COLOR, foreground=FG_COLOR, fieldbackground=BG_LIGHT)
+        self.style.configure("TFrame", background=BG_COLOR)
+        self.style.configure("TLabel", background=BG_COLOR, foreground=FG_COLOR)
+        self.style.configure("TLabelFrame", background=BG_COLOR, foreground=FG_COLOR)
+        self.style.configure("TLabelFrame.Label", background=BG_COLOR, foreground=FG_COLOR)
+        
+        # Treeview dark theme
+        self.style.configure("Custom.Treeview",
+                            background=BG_LIGHT,
+                            foreground=FG_COLOR,
+                            fieldbackground=BG_LIGHT,
+                            borderwidth=0)
+        self.style.map("Custom.Treeview",
+                    background=[('selected', ACCENT_COLOR)],
+                    foreground=[('selected', 'white')])
+        self.style.configure("Treeview.Heading",
+                            background=BG_COLOR,
+                            foreground=FG_COLOR,
+                            relief="flat")
+        
+        # Button dark theme
+        self.style.configure("TButton",
+                            background=BG_LIGHT,
+                            foreground=FG_COLOR,
+                            borderwidth=1,
+                            focuscolor='none',
+                            relief="flat")
+        self.style.map("TButton",
+                    background=[('active', ACCENT_COLOR), ('pressed', ACCENT_HOVER)],
+                    foreground=[('active', 'white')])
+        
+        # Combobox dark theme
+        self.style.configure("TCombobox",
+                            fieldbackground=BG_LIGHT,
+                            background=BG_LIGHT,
+                            foreground=FG_COLOR,
+                            arrowcolor=FG_COLOR,
+                            borderwidth=1)
+        self.style.map("TCombobox",
+                    fieldbackground=[('readonly', BG_LIGHT)],
+                    selectbackground=[('readonly', BG_LIGHT)],
+                    selectforeground=[('readonly', FG_COLOR)])
+        
+        # Entry dark theme
+        self.style.configure("TEntry",
+                            fieldbackground=BG_LIGHT,
+                            foreground=FG_COLOR,
+                            insertcolor=FG_COLOR,
+                            borderwidth=1)
+        
+        # Scrollbar dark theme
+        self.style.configure("Vertical.TScrollbar",
+                            background=BG_LIGHT,
+                            troughcolor=BG_COLOR,
+                            borderwidth=0,
+                            arrowcolor=FG_COLOR)
+        self.style.configure("Horizontal.TScrollbar",
+                            background=BG_LIGHT,
+                            troughcolor=BG_COLOR,
+                            borderwidth=0,
+                            arrowcolor=FG_COLOR)
         
         self.translator = Translator()
         self.source_data = {}
@@ -32,6 +103,9 @@ class TranslationEditor(tk.Tk):
         
         self.create_widgets()
         self.create_context_menu()
+
+        # Then CALL this method at the end of __init__ (before startup_ok):
+        self.configure_combobox_dropdown()  
         
         startup_ok = self.scan_for_languages()
         if startup_ok:
@@ -39,13 +113,23 @@ class TranslationEditor(tk.Tk):
             self.on_source_language_change(None)
         else:
             self.after(100, self.show_startup_error)
+
+    def configure_combobox_dropdown(self):
+        """Configure dropdown list colors for comboboxes"""
+        self.option_add('*TCombobox*Listbox.background', BG_LIGHT)
+        self.option_add('*TCombobox*Listbox.foreground', FG_COLOR)
+        self.option_add('*TCombobox*Listbox.selectBackground', ACCENT_COLOR)
+        self.option_add('*TCombobox*Listbox.selectForeground', 'white')
+
+          
             
     def show_startup_error(self):
         self.show_centered_message("Error", f"No .json language files found in '{os.path.abspath(LANG_DIR)}'.\n\nThe application will now close.")
         self.destroy()
 
     def create_widgets(self):
-        main_pane = tk.PanedWindow(self, orient=tk.HORIZONTAL, sashrelief=tk.RAISED)
+        main_pane = tk.PanedWindow(self, orient=tk.HORIZONTAL, sashrelief=tk.RAISED,
+                          bg=BG_COLOR, sashwidth=3)
         main_pane.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
         left_frame = ttk.Frame(main_pane, width=250)
         main_pane.add(left_frame, minsize=250)
@@ -84,7 +168,11 @@ class TranslationEditor(tk.Tk):
         self.tree.bind("<Button-3>", self.show_context_menu)
 
     def create_context_menu(self):
-        self.context_menu = tk.Menu(self, tearoff=0)
+        self.context_menu = tk.Menu(self, tearoff=0,
+                                    bg=BG_LIGHT, fg=FG_COLOR,
+                                    activebackground=ACCENT_COLOR,
+                                    activeforeground='white',
+                                    relief='flat', borderwidth=0)
         self.context_menu.add_command(label="Translate Selection", command=self.translate_selection)
 
     def show_context_menu(self, event):
@@ -164,8 +252,8 @@ class TranslationEditor(tk.Tk):
         self.flash_refresh()
 
     def flash_refresh(self):
-        self.style.configure("Custom.Treeview", background="#E0F0FF")
-        self.after(250, lambda: self.style.configure("Custom.Treeview", background="white"))
+        self.style.configure("Custom.Treeview", background="#003d6b")
+        self.after(250, lambda: self.style.configure("Custom.Treeview", background=BG_LIGHT))
 
     def on_source_language_change(self, event):
         self.update_target_selector(); self.load_source_file(); self.load_target_file(); self.populate_treeview()
@@ -181,7 +269,12 @@ class TranslationEditor(tk.Tk):
         col_index = int(column.replace('#', '')) - 1
         if col_index == 0: return
         current_value = self.tree.item(item_id, "values")[col_index]
-        entry = ttk.Entry(self.tree, justify="left")
+        entry = tk.Entry(self.tree, justify="left",
+                    bg=BG_LIGHT, fg=FG_COLOR,
+                    insertbackground=FG_COLOR,
+                    relief='flat', borderwidth=1,
+                    selectbackground=ACCENT_COLOR,
+                    selectforeground='white')
         x, y, width, height = self.tree.bbox(item_id, column)
         entry.place(x=x, y=y, width=width, height=height)
         entry.insert(0, current_value)
@@ -237,6 +330,7 @@ class TranslationEditor(tk.Tk):
 
     def show_progress_popup(self, mode='determinate', max_val=100, title="Translating...", label_text="Translating, please wait..."):
         self.progress_popup = tk.Toplevel(self); self.progress_popup.title(title)
+        self.progress_popup.configure(bg=BG_COLOR)
         popup_width, popup_height = 300, 100
         main_x, main_y = self.winfo_x(), self.winfo_y()
         main_width, main_height = self.winfo_width(), self.winfo_height()
@@ -273,7 +367,9 @@ class TranslationEditor(tk.Tk):
         popup.geometry(f'+{center_x}+{center_y}')
 
     def show_centered_message(self, title, message):
-        msg_box = tk.Toplevel(self); msg_box.title(title)
+        msg_box = tk.Toplevel(self)
+        msg_box.title(title)
+        msg_box.configure(bg=BG_COLOR)
         
         ttk.Label(msg_box, text=message, padding=(20, 20), wraplength=350, justify='center').pack(expand=True, fill='both')
         
@@ -291,7 +387,9 @@ class TranslationEditor(tk.Tk):
         self.wait_window(msg_box)
 
     def show_centered_askyesno(self, title, message):
-        dialog = tk.Toplevel(self); dialog.title(title)
+        dialog = tk.Toplevel(self)
+        dialog.title(title)
+        dialog.configure(bg=BG_COLOR)
         result = tk.BooleanVar(value=False)
         ttk.Label(dialog, text=message, padding=(20, 20), wraplength=350, justify='center').pack(expand=True, fill='both')
         button_frame = ttk.Frame(dialog, padding=(10, 0, 10, 10))
