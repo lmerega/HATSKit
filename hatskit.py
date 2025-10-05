@@ -35,7 +35,7 @@ from rich.panel import Panel
 from rich.table import Table
 
 # --- Script Version ---
-VERSION = "1.0.4"
+VERSION = "1.0.5"
 
 # --- Rich Console ---
 console = Console()
@@ -302,6 +302,16 @@ def compute_content_hash(user_choices):
         version = comp.get('asset_info', {}).get('version', 'N/A')
         hasher.update(f"{comp_id}:{version}".encode('utf-8'))
     return hasher.hexdigest()[:7]
+
+def get_directory_files(directory):
+    """Get all files in directory with their modification times"""
+    files = {}
+    for root, dirs, filenames in os.walk(directory):
+        for filename in filenames:
+            filepath = os.path.join(root, filename)
+            rel_path = os.path.relpath(filepath, directory).replace('\\', '/')
+            files[rel_path] = os.path.getmtime(filepath)
+    return files
 
 # --- HATS Processing Logic ---
 def process_component(component, downloaded_file_path, build_dir):
@@ -799,6 +809,10 @@ def run_builder():
     temp_download_path = os.path.join(base_path, DOWNLOAD_DIR)
     temp_build_path = os.path.join(base_path, BUILD_DIR)
     custom_hekate_ini = None
+    
+    # Initialize build manifest for tracking component files
+    build_manifest = {"components": {}}
+    PROTECTED_COMPONENTS = ['atmosphere', 'hekate']  # Never track these
 
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -1058,11 +1072,39 @@ def run_builder():
                 download_path = os.path.join(temp_download_path, filename)
                 console.print(f"  > [dim]{get_text('downloading_from', url=download_url.split('?')[0])}[/]")
                 if download_file(download_url, download_path, github_pat):
-                    process_component(component, download_path, temp_build_path)
+                    # Check if component is protected (atmosphere, hekate)
+                    if component_id in PROTECTED_COMPONENTS:
+                        console.print(f"  > [dim]Protected component - not tracked for removal[/]")
+                        process_component(component, download_path, temp_build_path)
+                    else:
+                        # Track file changes for non-protected components
+                        before_files = get_directory_files(temp_build_path)
+                        process_component(component, download_path, temp_build_path)
+                        after_files = get_directory_files(temp_build_path)
+                        
+                        # Record only new or modified files
+                        component_files = [f for f in after_files if f not in before_files or after_files[f] != before_files.get(f)]
+                        build_manifest['components'][component_id] = {
+                            'name': component['name'],
+                            'version': asset_info.get('version', 'N/A'),
+                            'category': component.get('category', 'Unknown'),
+                            'files': component_files
+                        }
+                        console.print(f"  > [dim]Tracked {len(component_files)} files[/]")
             else:
                 console.print(f"  > [yellow]{get_text('skip_component')}[/]")
 
         create_pack_summary(user_choices, categories, output_filename, VERSION, content_hash, changes)
+        
+        # Save build manifest to build directory
+        build_manifest['build_date'] = datetime.now(timezone.utc).isoformat()
+        build_manifest['builder_version'] = VERSION
+        build_manifest['content_hash'] = content_hash
+        manifest_path = os.path.join(temp_build_path, 'HATS-MANIFEST.json')
+        with open(manifest_path, 'w', encoding='utf-8') as f:
+            json.dump(build_manifest, f, indent=2)
+        console.print(f"[bold green]✓ Build manifest created ({len(build_manifest['components'])} components tracked)[/]")
+        
         create_final_zip(temp_build_path, output_path)
 
         new_build_info = {
