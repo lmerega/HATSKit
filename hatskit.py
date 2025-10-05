@@ -323,6 +323,25 @@ def process_component(component, downloaded_file_path, build_dir):
                 with zipfile.ZipFile(downloaded_file_path, 'r') as zf:
                     zf.extractall(build_dir)
                 console.print(f"     - {get_text('unzip_to_root')}")
+
+            elif action == 'unzip_subfolder_to_root':
+                subfolder = step['subfolder']
+                with zipfile.ZipFile(downloaded_file_path, 'r') as zf:
+                    # Get all members that start with the subfolder path
+                    subfolder_prefix = subfolder.rstrip('/') + '/'
+                    for member in zf.namelist():
+                        if member.startswith(subfolder_prefix) and member != subfolder_prefix:
+                            # Remove the subfolder prefix from the path
+                            target_path = member[len(subfolder_prefix):]
+                            if target_path:  # Skip empty paths
+                                target_full_path = os.path.join(build_dir, target_path)
+                                if member.endswith('/'):
+                                    os.makedirs(target_full_path, exist_ok=True)
+                                else:
+                                    os.makedirs(os.path.dirname(target_full_path), exist_ok=True)
+                                    with zf.open(member) as source, open(target_full_path, 'wb') as target:
+                                        target.write(source.read())
+                console.print(f"     - Extracted contents of '{subfolder}' to root")    
             elif action == 'copy_file':
                 target_path_str = step['target_path'].strip('/\\')
                 target_path = os.path.join(build_dir, target_path_str)
@@ -488,6 +507,7 @@ def get_processing_step():
         "unzip_folder",
         "find_and_copy",
         "find_and_rename",
+        "unzip_subfolder_to_root",
         questionary.Choice(title="Delete File or Folder", value="delete_file")
     ]
     action = questionary.select(
@@ -504,6 +524,12 @@ def get_processing_step():
         prompt_text = get_text('target_path_prompt_delete') if action == 'delete_file' else get_text('target_path_prompt')
         step['target_path'] = questionary.text(prompt_text, style=custom_style).ask()
 
+    if action == "unzip_subfolder_to_root":
+        step['subfolder'] = questionary.text(
+            "Enter subfolder name to extract (e.g., 'SdOut'):", 
+            style=custom_style
+        ).ask()    
+
     if action in ["find_and_copy", "find_and_rename"]:
         step['source_file_pattern'] = questionary.text(get_text('source_pattern_prompt'), style=custom_style).ask()
     if action == "find_and_rename":
@@ -519,6 +545,7 @@ def edit_processing_step(step):
         "unzip_folder",
         "find_and_copy",
         "find_and_rename",
+        "unzip_subfolder_to_root",
         questionary.Choice(title="Delete File or Folder", value="delete_file")
     ]
     edited_step['action'] = questionary.select(
