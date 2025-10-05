@@ -12,15 +12,15 @@
     "descriptions": {
       "de": "Testet, ob 90DNS korrekt konfiguriert ist.",
       "en": "Tests if 90DNS is configured correctly.",
-      "es": "Prueba si 90DNS está configurado correctamente.",
-      "fr": "Teste si 90DNS est configuré correctement.",
+      "es": "Prueba si 90DNS est\u00e1 configurado correctamente.",
+      "fr": "Teste si 90DNS est configur\u00e9 correctement.",
       "id": "Aplikasi untuk mengecek konfigurasi 90DNS.",
-      "it": "Verifica se 90DNS è configurato correttamente.",
-      "ja": "90DNSが正しく設定されているかテストします。",
-      "ko": "90DNS가 올바르게 구성되었는지 테스트합니다.",
-      "pt": "Testa se o 90DNS está configurado corretamente.",
-      "ru": "Проверяет, правильно ли настроен 90DNS.",
-      "zh": "测试90DNS是否配置正确。"
+      "it": "Verifica se 90DNS \u00e8 configurato correttamente.",
+      "ja": "90DNS\u304c\u6b63\u3057\u304f\u8a2d\u5b9a\u3055\u308c\u3066\u3044\u308b\u304b\u30c6\u30b9\u30c8\u3057\u307e\u3059\u3002",
+      "ko": "90DNS\uac00 \uc62c\ubc14\ub974\uac8c \uad6c\uc131\ub418\uc5c8\ub294\uc9c0 \ud14c\uc2a4\ud2b8\ud569\ub2c8\ub2e4.",
+      "pt": "Testa se o 90DNS est\u00e1 configurado corretamente.",
+      "ru": "\u041f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u0442, \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e \u043b\u0438 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d 90DNS.",
+      "zh": "\u6d4b\u8bd590DNS\u662f\u5426\u914d\u7f6e\u6b63\u786e\u3002"
     },
     "name": "Switch 90DNS Tester",
     "processing_steps": [
@@ -46,14 +46,14 @@
       "de": "Alles von Ihrer Switch aus aktualisieren.",
       "en": "Update everything from your Switch.",
       "es": "Actualiza todo desde tu Switch.",
-      "fr": "Mettez à jour tout depuis votre Switch.",
+      "fr": "Mettez \u00e0 jour tout depuis votre Switch.",
       "id": "Update semua CFW dan homebrew langsung dari Switch.",
       "it": "Aggiorna tutto dal tuo Switch.",
-      "ja": "Switchからすべてを更新します。",
-      "ko": "스위치에서 모든 것을 업데이트하세요.",
+      "ja": "Switch\u304b\u3089\u3059\u3079\u3066\u3092\u66f4\u65b0\u3057\u307e\u3059\u3002",
+      "ko": "\uc2a4\uc704\uce58\uc5d0\uc11c \ubaa8\ub4e0 \uac83\uc744 \uc5c5\ub370\uc774\ud2b8\ud558\uc138\uc694.",
       "pt": "Atualize tudo a partir do seu Switch.",
-      "ru": "Обновляйте всё с вашего Switch.",
-      "zh": "从您的Switch更新所有内容。"
+      "ru": "\u041e\u0431\u043d\u043e\u0432\u043b\u044f\u0439\u0442\u0435 \u0432\u0441\u0451 \u0441 \u0432\u0430\u0448\u0435\u0433\u043e Switch.",
+      "zh": "\u4ece\u60a8\u7684Switch\u66f4\u65b0\u6240\u6709\u5185\u5bb9\u3002"
     },
     "name": "AIO-Switch-Updater",
     "processing_steps": [
@@ -78,14 +78,14 @@
       "de": "Laden Sie neue Homebrew-Apps von Ihrer Switch herunter.",
       "en": "Download new homebrew apps from your Switch.",
       "es": "Descarga nuevas aplicaciones homebrew desde tu Switch.",
-      "fr": "Téléchargez de nouvelles applications homebrew depuis votre Switch.",
+      "fr": "T\u00e9l\u00e9chargez de nouvelles applications homebrew depuis votre Switch.",
       "id": "Download aplikasi homebrew baru langsung dari Switch.",
       "it": "Scarica nuove app homebrew dal tuo Switch.",
-      "ja": "Switchから新しいホームブリューアプリをダウンロードします。",
-      "ko": "스위치에서 새로운 홈브류 앱을 다운로드하세요.",
+      "ja": "Switch\u304b\u3089\u65b0\u3057\u3044\u30db\u30fc\u30e0\u30d6\u30ea\u30e5\u30fc\u30a2\u30d7\u30ea\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3057\u307e\u3059\u3002",
+      "ko": "\uc2a4\uc704\uce58\uc5d0\uc11c \uc0c8\ub85c\uc6b4 \ud648\ube0c\ub958 \uc571\uc744 \ub2e4\uc6b4\ub85c\ub4dc\ud558\uc138\uc694.",
       "pt": "Baixe novos aplicativos homebrew a partir do seu Switch.",
-      "ru": "Загружайте новые приложения homebrew с вашего Switch.",
-      "zh": "从您的Switch下载新的自制应用程序。"
+      "ru": "\u0417\u0430\u0433\u0440\u0443\u0436\u0430\u0439\u0442\u0435 \u043d\u043e\u0432\u044b\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f homebrew \u0441 \u0432\u0430\u0448\u0435\u0433\u043e Switch.",
+      "zh": "\u4ece\u60a8\u7684Switch\u4e0b\u8f7d\u65b0\u7684\u81ea\u5236\u5e94\u7528\u7a0b\u5e8f\u3002"
     },
     "name": "Homebrew Appstore",
     "processing_steps": [
@@ -114,11 +114,11 @@
       "fr": "CFW principal. Essentiel.",
       "id": "Core dari CFW. Komponen wajib.",
       "it": "CFW principale. Essenziale.",
-      "ja": "コアCFW。必須。",
-      "ko": "핵심 CFW. 필수적입니다.",
+      "ja": "\u30b3\u30a2CFW\u3002\u5fc5\u9808\u3002",
+      "ko": "\ud575\uc2ec CFW. \ud544\uc218\uc801\uc785\ub2c8\ub2e4.",
       "pt": "CFW principal. Essencial.",
-      "ru": "Основной CFW. Необходим.",
-      "zh": "核心CFW。必需品。"
+      "ru": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 CFW. \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c.",
+      "zh": "\u6838\u5fc3CFW\u3002\u5fc5\u9700\u54c1\u3002"
     },
     "name": "Atmosphere",
     "processing_steps": [
@@ -131,12 +131,12 @@
   },
   "dbi_eng": {
     "asset_info": {
-      "etag": "W/\"15c2b7261e16255866f0b942daabf70e56acb56d40caf3a0b337dc6af394e9ff\"",
-      "timestamp": "2025-08-13T02:53:03.845220",
-      "url": "https://github.com/rashevskyv/dbi/releases/download/658/DBI.nro",
-      "version": "658"
+      "etag": "W/\"<ETAG_PLACEHOLDER>\"",
+      "timestamp": "2025-09-11T09:27:04.000000Z",
+      "url": "https://github.com/Morce3232/DBIPatcher/releases/download/v810/DBI.810.en.nro",
+      "version": "v810"
     },
-    "asset_pattern": "DBI.nro",
+    "asset_pattern": "DBI.*.en.nro",
     "category": "Homebrew Apps",
     "default": false,
     "descriptions": {
@@ -146,11 +146,11 @@
       "fr": "Gestionnaire et installateur de fichiers MTP.",
       "id": "File manager dan installer via MTP.",
       "it": "Gestore e installatore di file MTP.",
-      "ja": "MTPファイルマネージャーとインストーラー。",
-      "ko": "MTP 파일 관리자 및 설치 프로그램.",
+      "ja": "MTP\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u3068\u30a4\u30f3\u30b9\u30c8\u30fc\u30e9\u30fc\u3002",
+      "ko": "MTP \ud30c\uc77c \uad00\ub9ac\uc790 \ubc0f \uc124\uce58 \ud504\ub85c\uadf8\ub7a8.",
       "pt": "Gerenciador e instalador de arquivos MTP.",
-      "ru": "Менеджер и установщик файлов MTP.",
-      "zh": "MTP文件管理器和安装器。"
+      "ru": "\u041c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0449\u0438\u043a \u0444\u0430\u0439\u043b\u043e\u0432 MTP.",
+      "zh": "MTP\u6587\u4ef6\u7ba1\u7406\u5668\u548c\u5b89\u88c5\u5668\u3002"
     },
     "name": "DBI ENG",
     "processing_steps": [
@@ -159,9 +159,8 @@
         "target_path": "/switch/DBI_ENG/DBI.nro"
       }
     ],
-    "repo": "rashevskyv/dbi",
-    "source_type": "github_release",
-    "tag": "658"
+    "repo": "Morce3232/DBIPatcher",
+    "source_type": "github_release"
   },
   "dbi_ru": {
     "asset_info": {
@@ -180,11 +179,11 @@
       "fr": "Gestionnaire et installateur de fichiers MTP.",
       "id": "File manager dan installer via MTP.",
       "it": "Gestore e installatore di file MTP.",
-      "ja": "MTPファイルマネージャーとインストーラー。",
-      "ko": "MTP 파일 관리자 및 설치 프로그램.",
+      "ja": "MTP\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u3068\u30a4\u30f3\u30b9\u30c8\u30fc\u30e9\u30fc\u3002",
+      "ko": "MTP \ud30c\uc77c \uad00\ub9ac\uc790 \ubc0f \uc124\uce58 \ud504\ub85c\uadf8\ub7a8.",
       "pt": "Gerenciador e instalador de arquivos MTP.",
-      "ru": "Менеджер и установщик файлов MTP.",
-      "zh": "MTP文件管理器和安装器。"
+      "ru": "\u041c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0449\u0438\u043a \u0444\u0430\u0439\u043b\u043e\u0432 MTP.",
+      "zh": "MTP\u6587\u4ef6\u7ba1\u7406\u5668\u548c\u5b89\u88c5\u5668\u3002"
     },
     "name": "DBI RU",
     "processing_steps": [
@@ -209,15 +208,15 @@
     "descriptions": {
       "de": "Tesla-Overlay zur Verwaltung von DNS-Weiterleitungen.",
       "en": "Tesla overlay for managing DNS redirection.",
-      "es": "Superposición de Tesla para gestionar la redirección de DNS.",
-      "fr": "Superposition Tesla pour gérer la redirection DNS.",
+      "es": "Superposici\u00f3n de Tesla para gestionar la redirecci\u00f3n de DNS.",
+      "fr": "Superposition Tesla pour g\u00e9rer la redirection DNS.",
       "id": "Tesla overlay untuk mengatur DNS redirect.",
       "it": "Overlay Tesla per gestire il reindirizzamento DNS.",
-      "ja": "DNSリダイレクションを管理するためのTeslaオーバーレイ。",
-      "ko": "DNS 리디렉션을 관리하기 위한 Tesla 오버레이.",
-      "pt": "Sobreposição Tesla para gerenciar o redirecionamento de DNS.",
-      "ru": "Оверлей Tesla для управления перенаправлением DNS.",
-      "zh": "用于管理DNS重定向的Tesla覆盖层。"
+      "ja": "DNS\u30ea\u30c0\u30a4\u30ec\u30af\u30b7\u30e7\u30f3\u3092\u7ba1\u7406\u3059\u308b\u305f\u3081\u306eTesla\u30aa\u30fc\u30d0\u30fc\u30ec\u30a4\u3002",
+      "ko": "DNS \ub9ac\ub514\ub809\uc158\uc744 \uad00\ub9ac\ud558\uae30 \uc704\ud55c Tesla \uc624\ubc84\ub808\uc774.",
+      "pt": "Sobreposi\u00e7\u00e3o Tesla para gerenciar o redirecionamento de DNS.",
+      "ru": "\u041e\u0432\u0435\u0440\u043b\u0435\u0439 Tesla \u0434\u043b\u044f \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435\u043c DNS.",
+      "zh": "\u7528\u4e8e\u7ba1\u7406DNS\u91cd\u5b9a\u5411\u7684Tesla\u8986\u76d6\u5c42\u3002"
     },
     "name": "DNS MITM Manager",
     "processing_steps": [
@@ -239,17 +238,17 @@
     "category": "Tesla Overlays",
     "default": false,
     "descriptions": {
-      "de": "Tesla-Overlay für Edizon.",
+      "de": "Tesla-Overlay f\u00fcr Edizon.",
       "en": "Tesla overlay for Edizon.",
-      "es": "Superposición de Tesla para Edizon.",
+      "es": "Superposici\u00f3n de Tesla para Edizon.",
       "fr": "Superposition Tesla pour Edizon.",
       "id": "Tesla overlay untuk Edizon.",
       "it": "Overlay Tesla per Edizon.",
-      "ja": "Edizon用のTeslaオーバーレイ。",
-      "ko": "Edizon용 Tesla 오버레이.",
-      "pt": "Sobreposição Tesla para Edizon.",
-      "ru": "Оверлей Tesla для Edizon.",
-      "zh": "用于Edizon的Tesla覆盖层。"
+      "ja": "Edizon\u7528\u306eTesla\u30aa\u30fc\u30d0\u30fc\u30ec\u30a4\u3002",
+      "ko": "Edizon\uc6a9 Tesla \uc624\ubc84\ub808\uc774.",
+      "pt": "Sobreposi\u00e7\u00e3o Tesla para Edizon.",
+      "ru": "\u041e\u0432\u0435\u0440\u043b\u0435\u0439 Tesla \u0434\u043b\u044f Edizon.",
+      "zh": "\u7528\u4e8eEdizon\u7684Tesla\u8986\u76d6\u5c42\u3002"
     },
     "name": "Edizon Overlay",
     "processing_steps": [
@@ -275,14 +274,14 @@
       "de": "Speicherdatei-Editor.",
       "en": "Save file editor.",
       "es": "Editor de archivos de guardado.",
-      "fr": "Éditeur de fichiers de sauvegarde.",
+      "fr": "\u00c9diteur de fichiers de sauvegarde.",
       "id": "Editor untuk save file game.",
       "it": "Editor di file di salvataggio.",
-      "ja": "セーブファイルエディター。",
-      "ko": "세이브 파일 편집기.",
+      "ja": "\u30bb\u30fc\u30d6\u30d5\u30a1\u30a4\u30eb\u30a8\u30c7\u30a3\u30bf\u30fc\u3002",
+      "ko": "\uc138\uc774\ube0c \ud30c\uc77c \ud3b8\uc9d1\uae30.",
       "pt": "Editor de arquivos de salvamento.",
-      "ru": "Редактор файлов сохранений.",
-      "zh": "存档文件编辑器。"
+      "ru": "\u0420\u0435\u0434\u0430\u043a\u0442\u043e\u0440 \u0444\u0430\u0439\u043b\u043e\u0432 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0439.",
+      "zh": "\u5b58\u6863\u6587\u4ef6\u7f16\u8f91\u5668\u3002"
     },
     "name": "Edizon SE",
     "processing_steps": [
@@ -304,17 +303,17 @@
     "category": "Homebrew Apps",
     "default": false,
     "descriptions": {
-      "de": "FTP-Server für Ihre Switch.",
+      "de": "FTP-Server f\u00fcr Ihre Switch.",
       "en": "FTP server for your Switch.",
       "es": "Servidor FTP para tu Switch.",
       "fr": "Serveur FTP pour votre Switch.",
       "id": "Aplikasi server FTP untuk Switch.",
       "it": "Server FTP per il tuo Switch.",
-      "ja": "Switch用のFTPサーバー。",
-      "ko": "스위치용 FTP 서버.",
+      "ja": "Switch\u7528\u306eFTP\u30b5\u30fc\u30d0\u30fc\u3002",
+      "ko": "\uc2a4\uc704\uce58\uc6a9 FTP \uc11c\ubc84.",
       "pt": "Servidor FTP para o seu Switch.",
-      "ru": "FTP-сервер для вашего Switch.",
-      "zh": "为您的Switch提供FTP服务器。"
+      "ru": "FTP-\u0441\u0435\u0440\u0432\u0435\u0440 \u0434\u043b\u044f \u0432\u0430\u0448\u0435\u0433\u043e Switch.",
+      "zh": "\u4e3a\u60a8\u7684Switch\u63d0\u4f9bFTP\u670d\u52a1\u5668\u3002"
     },
     "name": "FTPD Pro",
     "processing_steps": [
@@ -339,15 +338,15 @@
     "descriptions": {
       "de": "Vielseitiges Homebrew-Tool.",
       "en": "Multipurpose homebrew tool.",
-      "es": "Herramienta homebrew multipropósito.",
+      "es": "Herramienta homebrew multiprop\u00f3sito.",
       "fr": "Outil homebrew polyvalent.",
       "id": "Aplikasi homebrew serbaguna.",
       "it": "Strumento homebrew multiuso.",
-      "ja": "多目的ホームブリューツール。",
-      "ko": "다목적 홈브류 도구.",
+      "ja": "\u591a\u76ee\u7684\u30db\u30fc\u30e0\u30d6\u30ea\u30e5\u30fc\u30c4\u30fc\u30eb\u3002",
+      "ko": "\ub2e4\ubaa9\uc801 \ud648\ube0c\ub958 \ub3c4\uad6c.",
       "pt": "Ferramenta homebrew multiuso.",
-      "ru": "Многоцелевой инструмент homebrew.",
-      "zh": "多用途自制工具。"
+      "ru": "\u041c\u043d\u043e\u0433\u043e\u0446\u0435\u043b\u0435\u0432\u043e\u0439 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442 homebrew.",
+      "zh": "\u591a\u7528\u9014\u81ea\u5236\u5de5\u5177\u3002"
     },
     "name": "Goldleaf",
     "processing_steps": [
@@ -373,14 +372,14 @@
       "de": "Bootloader und Werkzeuge. Unverzichtbar.",
       "en": "Bootloader and tools. Essential.",
       "es": "Cargador de arranque y herramientas. Esencial.",
-      "fr": "Chargeur de démarrage et outils. Essentiel.",
+      "fr": "Chargeur de d\u00e9marrage et outils. Essentiel.",
       "id": "Bootloader dan tools. Komponen wajib.",
       "it": "Bootloader e strumenti. Essenziale.",
-      "ja": "ブートローダーとツール。必須。",
-      "ko": "부트로더 및 도구. 필수적입니다.",
-      "pt": "Carregador de inicialização e ferramentas. Essencial.",
-      "ru": "Загрузчик и инструменты. Необходим.",
-      "zh": "引导加载程序和工具。必需品。"
+      "ja": "\u30d6\u30fc\u30c8\u30ed\u30fc\u30c0\u30fc\u3068\u30c4\u30fc\u30eb\u3002\u5fc5\u9808\u3002",
+      "ko": "\ubd80\ud2b8\ub85c\ub354 \ubc0f \ub3c4\uad6c. \ud544\uc218\uc801\uc785\ub2c8\ub2e4.",
+      "pt": "Carregador de inicializa\u00e7\u00e3o e ferramentas. Essencial.",
+      "ru": "\u0417\u0430\u0433\u0440\u0443\u0437\u0447\u0438\u043a \u0438 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b. \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c.",
+      "zh": "\u5f15\u5bfc\u52a0\u8f7d\u7a0b\u5e8f\u548c\u5de5\u5177\u3002\u5fc5\u9700\u54c1\u3002"
     },
     "name": "Hekate + Nyx",
     "processing_steps": [
@@ -416,17 +415,17 @@
     "category": "Homebrew Apps",
     "default": false,
     "descriptions": {
-      "de": "Tool für Backup und Wiederherstellung von Speicherdateien.",
+      "de": "Tool f\u00fcr Backup und Wiederherstellung von Speicherdateien.",
       "en": "Save file backup and restore tool.",
-      "es": "Herramienta de respaldo y restauración de archivos de guardado.",
+      "es": "Herramienta de respaldo y restauraci\u00f3n de archivos de guardado.",
       "fr": "Outil de sauvegarde et de restauration de fichiers de sauvegarde.",
       "id": "Aplikasi untuk backup dan restore save file.",
       "it": "Strumento di backup e ripristino dei file di salvataggio.",
-      "ja": "セーブファイルのバックアップと復元ツール。",
-      "ko": "세이브 파일 백업 및 복원 도구.",
-      "pt": "Ferramenta de backup e restauração de arquivos de salvamento.",
-      "ru": "Инструмент для резервного копирования и восстановления файлов сохранений.",
-      "zh": "存档文件备份和恢复工具。"
+      "ja": "\u30bb\u30fc\u30d6\u30d5\u30a1\u30a4\u30eb\u306e\u30d0\u30c3\u30af\u30a2\u30c3\u30d7\u3068\u5fa9\u5143\u30c4\u30fc\u30eb\u3002",
+      "ko": "\uc138\uc774\ube0c \ud30c\uc77c \ubc31\uc5c5 \ubc0f \ubcf5\uc6d0 \ub3c4\uad6c.",
+      "pt": "Ferramenta de backup e restaura\u00e7\u00e3o de arquivos de salvamento.",
+      "ru": "\u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442 \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0444\u0430\u0439\u043b\u043e\u0432 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0439.",
+      "zh": "\u5b58\u6863\u6587\u4ef6\u5907\u4efd\u548c\u6062\u590d\u5de5\u5177\u3002"
     },
     "name": "JKSV",
     "processing_steps": [
@@ -451,15 +450,15 @@
     "descriptions": {
       "de": "Verbinden Sie Ihr Nintendo-Konto offline.",
       "en": "Link your Nintendo Account offline.",
-      "es": "Vincula tu cuenta de Nintendo sin conexión.",
+      "es": "Vincula tu cuenta de Nintendo sin conexi\u00f3n.",
       "fr": "Liez votre compte Nintendo hors ligne.",
       "id": "Menautkan akun Nintendo secara offline.",
       "it": "Collega il tuo account Nintendo offline.",
-      "ja": "Nintendoアカウントをオフラインでリンクします。",
-      "ko": "Nintendo 계정을 오프라인으로 연결하세요.",
+      "ja": "Nintendo\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u30aa\u30d5\u30e9\u30a4\u30f3\u3067\u30ea\u30f3\u30af\u3057\u307e\u3059\u3002",
+      "ko": "Nintendo \uacc4\uc815\uc744 \uc624\ud504\ub77c\uc778\uc73c\ub85c \uc5f0\uacb0\ud558\uc138\uc694.",
       "pt": "Vincule sua conta Nintendo offline.",
-      "ru": "Свяжите свою учетную запись Nintendo в автономном режиме.",
-      "zh": "离线链接您的Nintendo帐户。"
+      "ru": "\u0421\u0432\u044f\u0436\u0438\u0442\u0435 \u0441\u0432\u043e\u044e \u0443\u0447\u0435\u0442\u043d\u0443\u044e \u0437\u0430\u043f\u0438\u0441\u044c Nintendo \u0432 \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u0435.",
+      "zh": "\u79bb\u7ebf\u94fe\u63a5\u60a8\u7684Nintendo\u5e10\u6237\u3002"
     },
     "name": "Linkalho",
     "processing_steps": [
@@ -483,17 +482,17 @@
     "category": "Payloads",
     "default": false,
     "descriptions": {
-      "de": "Werkzeug zum Auslesen der eindeutigen Schlüssel Ihrer Konsole.",
+      "de": "Werkzeug zum Auslesen der eindeutigen Schl\u00fcssel Ihrer Konsole.",
       "en": "Tool to dump your console's unique keys.",
-      "es": "Herramienta para extraer las claves únicas de tu consola.",
-      "fr": "Outil pour extraire les clés uniques de votre console.",
+      "es": "Herramienta para extraer las claves \u00fanicas de tu consola.",
+      "fr": "Outil pour extraire les cl\u00e9s uniques de votre console.",
       "id": "Payload untuk dump key unik dari konsol.",
       "it": "Strumento per estrarre le chiavi uniche della tua console.",
-      "ja": "コンソールのユニークなキーをダンプするツール。",
-      "ko": "콘솔의 고유 키를 덤프하는 도구.",
-      "pt": "Ferramenta para extrair as chaves únicas do seu console.",
-      "ru": "Инструмент для извлечения уникальных ключей вашей консоли.",
-      "zh": "用于提取您控制台唯一密钥的工具。"
+      "ja": "\u30b3\u30f3\u30bd\u30fc\u30eb\u306e\u30e6\u30cb\u30fc\u30af\u306a\u30ad\u30fc\u3092\u30c0\u30f3\u30d7\u3059\u308b\u30c4\u30fc\u30eb\u3002",
+      "ko": "\ucf58\uc194\uc758 \uace0\uc720 \ud0a4\ub97c \ub364\ud504\ud558\ub294 \ub3c4\uad6c.",
+      "pt": "Ferramenta para extrair as chaves \u00fanicas do seu console.",
+      "ru": "\u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442 \u0434\u043b\u044f \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u044f \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0445 \u043a\u043b\u044e\u0447\u0435\u0439 \u0432\u0430\u0448\u0435\u0439 \u043a\u043e\u043d\u0441\u043e\u043b\u0438.",
+      "zh": "\u7528\u4e8e\u63d0\u53d6\u60a8\u63a7\u5236\u53f0\u552f\u4e00\u5bc6\u94a5\u7684\u5de5\u5177\u3002"
     },
     "name": "Lockpick_RCM",
     "processing_steps": [
@@ -522,11 +521,11 @@
       "fr": "Utilisez des manettes d'autres consoles sur votre Switch.",
       "id": "Memakai kontroler dari konsol lain di Switch.",
       "it": "Usa i controller di altre console sul tuo Switch.",
-      "ja": "他のコンソールのコントローラーをSwitchで使用します。",
-      "ko": "스위치에서 다른 콘솔의 컨트롤러를 사용하세요.",
+      "ja": "\u4ed6\u306e\u30b3\u30f3\u30bd\u30fc\u30eb\u306e\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u3092Switch\u3067\u4f7f\u7528\u3057\u307e\u3059\u3002",
+      "ko": "\uc2a4\uc704\uce58\uc5d0\uc11c \ub2e4\ub978 \ucf58\uc194\uc758 \ucee8\ud2b8\ub864\ub7ec\ub97c \uc0ac\uc6a9\ud558\uc138\uc694.",
       "pt": "Use controladores de outros consoles no seu Switch.",
-      "ru": "Используйте контроллеры других консолей на вашем Switch.",
-      "zh": "在您的Switch上使用其他控制台的控制器。"
+      "ru": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u043b\u0435\u0440\u044b \u0434\u0440\u0443\u0433\u0438\u0445 \u043a\u043e\u043d\u0441\u043e\u043b\u0435\u0439 \u043d\u0430 \u0432\u0430\u0448\u0435\u043c Switch.",
+      "zh": "\u5728\u60a8\u7684Switch\u4e0a\u4f7f\u7528\u5176\u4ed6\u63a7\u5236\u53f0\u7684\u63a7\u5236\u5668\u3002"
     },
     "name": "MissionControl",
     "processing_steps": [
@@ -551,14 +550,14 @@
       "de": "Host-Prozess zum Laden von Switch-Overlay-OVLs (NROs).",
       "en": "Host process for loading Switch overlay OVLs (NROs).",
       "es": "Proceso host para cargar superposiciones OVL (NRO) de Switch.",
-      "fr": "Processus hôte pour charger les superpositions OVL (NRO) de Switch.",
+      "fr": "Processus h\u00f4te pour charger les superpositions OVL (NRO) de Switch.",
       "id": "Sysmodule untuk menjalankan Tesla overlay.",
       "it": "Processo host per caricare overlay OVL (NRO) di Switch.",
-      "ja": "SwitchのオーバーレイOVL（NRO）をロードするためのホストプロセス。",
-      "ko": "스위치 오버레이 OVL(NRO)을 로드하기 위한 호스트 프로세스.",
-      "pt": "Processo host para carregar sobreposições OVL (NRO) do Switch.",
-      "ru": "Хост-процесс для загрузки оверлеев OVL (NRO) для Switch.",
-      "zh": "用于加载Switch覆盖OVL（NRO）的主机进程。"
+      "ja": "Switch\u306e\u30aa\u30fc\u30d0\u30fc\u30ec\u30a4OVL\uff08NRO\uff09\u3092\u30ed\u30fc\u30c9\u3059\u308b\u305f\u3081\u306e\u30db\u30b9\u30c8\u30d7\u30ed\u30bb\u30b9\u3002",
+      "ko": "\uc2a4\uc704\uce58 \uc624\ubc84\ub808\uc774 OVL(NRO)\uc744 \ub85c\ub4dc\ud558\uae30 \uc704\ud55c \ud638\uc2a4\ud2b8 \ud504\ub85c\uc138\uc2a4.",
+      "pt": "Processo host para carregar sobreposi\u00e7\u00f5es OVL (NRO) do Switch.",
+      "ru": "\u0425\u043e\u0441\u0442-\u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0434\u043b\u044f \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u043e\u0432\u0435\u0440\u043b\u0435\u0435\u0432 OVL (NRO) \u0434\u043b\u044f Switch.",
+      "zh": "\u7528\u4e8e\u52a0\u8f7dSwitch\u8986\u76d6OVL\uff08NRO\uff09\u7684\u4e3b\u673a\u8fdb\u7a0b\u3002"
     },
     "name": "nx-ovlloader",
     "processing_steps": [
@@ -582,15 +581,15 @@
     "descriptions": {
       "de": "Ein vielseitiger Dateimanager.",
       "en": "A multipurpose file manager.",
-      "es": "Un administrador de archivos multipropósito.",
+      "es": "Un administrador de archivos multiprop\u00f3sito.",
       "fr": "Un gestionnaire de fichiers polyvalent.",
       "id": "File manager serbaguna.",
       "it": "Un gestore di file multiuso.",
-      "ja": "多目的ファイルマネージャー。",
-      "ko": "다목적 파일 관리자.",
+      "ja": "\u591a\u76ee\u7684\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u3002",
+      "ko": "\ub2e4\ubaa9\uc801 \ud30c\uc77c \uad00\ub9ac\uc790.",
       "pt": "Um gerenciador de arquivos multiuso.",
-      "ru": "Многоцелевой файловый менеджер.",
-      "zh": "多用途文件管理器。"
+      "ru": "\u041c\u043d\u043e\u0433\u043e\u0446\u0435\u043b\u0435\u0432\u043e\u0439 \u0444\u0430\u0439\u043b\u043e\u0432\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.",
+      "zh": "\u591a\u7528\u9014\u6587\u4ef6\u7ba1\u7406\u5668\u3002"
     },
     "name": "NX-Shell",
     "processing_steps": [
@@ -616,14 +615,14 @@
       "de": "Ein Payload zur Generierung von prod.info.",
       "en": "A payload to generate prod.info.",
       "es": "Un payload para generar prod.info.",
-      "fr": "Un payload pour générer prod.info.",
+      "fr": "Un payload pour g\u00e9n\u00e9rer prod.info.",
       "id": "Payload untuk membuat prod.info.",
       "it": "Un payload per generare prod.info.",
-      "ja": "prod.infoを生成するペイロード。",
-      "ko": "prod.info를 생성하는 페이로드.",
+      "ja": "prod.info\u3092\u751f\u6210\u3059\u308b\u30da\u30a4\u30ed\u30fc\u30c9\u3002",
+      "ko": "prod.info\ub97c \uc0dd\uc131\ud558\ub294 \ud398\uc774\ub85c\ub4dc.",
       "pt": "Um payload para gerar prod.info.",
-      "ru": "Пейлоад для генерации prod.info.",
-      "zh": "用于生成prod.info的负载。"
+      "ru": "\u041f\u0435\u0439\u043b\u043e\u0430\u0434 \u0434\u043b\u044f \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 prod.info.",
+      "zh": "\u7528\u4e8e\u751f\u6210prod.info\u7684\u8d1f\u8f7d\u3002"
     },
     "name": "Prodinfo_gen",
     "processing_steps": [
@@ -646,17 +645,17 @@
     "category": "Homebrew Apps",
     "default": false,
     "descriptions": {
-      "de": "Neustart zu Payloads aus dem Homebrew-Menü.",
+      "de": "Neustart zu Payloads aus dem Homebrew-Men\u00fc.",
       "en": "Reboot to payloads from the homebrew menu.",
-      "es": "Reinicia a payloads desde el menú homebrew.",
-      "fr": "Redémarrez vers des payloads depuis le menu homebrew.",
+      "es": "Reinicia a payloads desde el men\u00fa homebrew.",
+      "fr": "Red\u00e9marrez vers des payloads depuis le menu homebrew.",
       "id": "Reboot ke payload dari menu homebrew.",
       "it": "Riavvia ai payload dal menu homebrew.",
-      "ja": "ホームブリューからペイロードにリブートします。",
-      "ko": "홈브류 메뉴에서 페이로드로 재부팅합니다.",
+      "ja": "\u30db\u30fc\u30e0\u30d6\u30ea\u30e5\u30fc\u304b\u3089\u30da\u30a4\u30ed\u30fc\u30c9\u306b\u30ea\u30d6\u30fc\u30c8\u3057\u307e\u3059\u3002",
+      "ko": "\ud648\ube0c\ub958 \uba54\ub274\uc5d0\uc11c \ud398\uc774\ub85c\ub4dc\ub85c \uc7ac\ubd80\ud305\ud569\ub2c8\ub2e4.",
       "pt": "Reiniciar para payloads a partir do menu homebrew.",
-      "ru": "Перезагрузка в пейлоады из меню homebrew.",
-      "zh": "从自制菜单重启到负载。"
+      "ru": "\u041f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0432 \u043f\u0435\u0439\u043b\u043e\u0430\u0434\u044b \u0438\u0437 \u043c\u0435\u043d\u044e homebrew.",
+      "zh": "\u4ece\u81ea\u5236\u83dc\u5355\u91cd\u542f\u5230\u8d1f\u8f7d\u3002"
     },
     "name": "Quick-Reboot (App)",
     "processing_steps": [
@@ -682,14 +681,14 @@
       "de": "Neustart zu Payloads aus Tesla.",
       "en": "Reboot to payloads from the Tesla.",
       "es": "Reinicia a payloads desde Tesla.",
-      "fr": "Redémarrez vers des payloads depuis Tesla.",
+      "fr": "Red\u00e9marrez vers des payloads depuis Tesla.",
       "id": "Reboot ke payload dari Tesla.",
       "it": "Riavvia ai payload da Tesla.",
-      "ja": "Teslaからペイロードにリブートします。",
-      "ko": "Tesla에서 페이로드로 재부팅합니다.",
+      "ja": "Tesla\u304b\u3089\u30da\u30a4\u30ed\u30fc\u30c9\u306b\u30ea\u30d6\u30fc\u30c8\u3057\u307e\u3059\u3002",
+      "ko": "Tesla\uc5d0\uc11c \ud398\uc774\ub85c\ub4dc\ub85c \uc7ac\ubd80\ud305\ud569\ub2c8\ub2e4.",
       "pt": "Reiniciar para payloads a partir do Tesla.",
-      "ru": "Перезагрузка в пейлоады из Tesla.",
-      "zh": "从Tesla重启到负载。"
+      "ru": "\u041f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0432 \u043f\u0435\u0439\u043b\u043e\u0430\u0434\u044b \u0438\u0437 Tesla.",
+      "zh": "\u4eceTesla\u91cd\u542f\u5230\u8d1f\u8f7d\u3002"
     },
     "name": "Quick-Reboot overlay",
     "processing_steps": [
@@ -714,15 +713,15 @@
     "descriptions": {
       "de": "Tesla-Overlay zur Synchronisierung der Systemuhr mit einem NTP-Server.",
       "en": "Tesla overlay to sync system clock with an NTP server.",
-      "es": "Superposición de Tesla para sincronizar el reloj del sistema con un servidor NTP.",
-      "fr": "Superposition Tesla pour synchroniser l'horloge système avec un serveur NTP.",
+      "es": "Superposici\u00f3n de Tesla para sincronizar el reloj del sistema con un servidor NTP.",
+      "fr": "Superposition Tesla pour synchroniser l'horloge syst\u00e8me avec un serveur NTP.",
       "id": "Tesla overlay untuk sinkronisasi jam dengan server NTP.",
       "it": "Overlay Tesla per sincronizzare l'orologio di sistema con un server NTP.",
-      "ja": "システムクロックをNTPサーバーと同期するためのTeslaオーバーレイ。",
-      "ko": "시스템 시계를 NTP 서버와 동기화하는 Tesla 오버레이.",
-      "pt": "Sobreposição Tesla para sincronizar o relógio do sistema com um servidor NTP.",
-      "ru": "Оверлей Tesla для синхронизации системных часов с сервером NTP.",
-      "zh": "用于将系统时钟与NTP服务器同步的Tesla覆盖层。"
+      "ja": "\u30b7\u30b9\u30c6\u30e0\u30af\u30ed\u30c3\u30af\u3092NTP\u30b5\u30fc\u30d0\u30fc\u3068\u540c\u671f\u3059\u308b\u305f\u3081\u306eTesla\u30aa\u30fc\u30d0\u30fc\u30ec\u30a4\u3002",
+      "ko": "\uc2dc\uc2a4\ud15c \uc2dc\uacc4\ub97c NTP \uc11c\ubc84\uc640 \ub3d9\uae30\ud654\ud558\ub294 Tesla \uc624\ubc84\ub808\uc774.",
+      "pt": "Sobreposi\u00e7\u00e3o Tesla para sincronizar o rel\u00f3gio do sistema com um servidor NTP.",
+      "ru": "\u041e\u0432\u0435\u0440\u043b\u0435\u0439 Tesla \u0434\u043b\u044f \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0445 \u0447\u0430\u0441\u043e\u0432 \u0441 \u0441\u0435\u0440\u0432\u0435\u0440\u043e\u043c NTP.",
+      "zh": "\u7528\u4e8e\u5c06\u7cfb\u7edf\u65f6\u949f\u4e0eNTP\u670d\u52a1\u5668\u540c\u6b65\u7684Tesla\u8986\u76d6\u5c42\u3002"
     },
     "name": "QuickNTP",
     "processing_steps": [
@@ -731,38 +730,6 @@
       }
     ],
     "repo": "nedex/QuickNTP",
-    "source_type": "github_release"
-  },
-  "saltynx": {
-    "asset_info": {
-      "etag": "W/\"5d51c10995d7c7768dabe2260965dfc941ae1326a36eb3f7adf38db55c4250e2\"",
-      "timestamp": "2025-08-13T02:53:14.076241",
-      "url": "https://github.com/masagrator/SaltyNX/releases/download/1.4.5/SaltyNX-1.4.5.zip",
-      "version": "1.4.5"
-    },
-    "asset_pattern": "SaltyNX-*.zip",
-    "category": "Patches",
-    "default": false,
-    "descriptions": {
-      "de": "Ein salt-basierter Plugin-Loader für Mods.",
-      "en": "A salt-based plugin loader for mods.",
-      "es": "Un cargador de plugins basado en salt para mods.",
-      "fr": "Un chargeur de plugins basé sur salt pour les mods.",
-      "id": "Plugin loader berbasis salt untuk mod.",
-      "it": "Un caricatore di plugin basato su salt per mod.",
-      "ja": "MOD用のソルトベースのプラグインローダー。",
-      "ko": "모드용 소금 기반 플러그인 로더.",
-      "pt": "Um carregador de plugins baseado em salt para mods.",
-      "ru": "Загрузчик плагинов на основе salt для модов.",
-      "zh": "用于模组的基于salt的插件加载器。"
-    },
-    "name": "SaltyNX",
-    "processing_steps": [
-      {
-        "action": "unzip_to_root"
-      }
-    ],
-    "repo": "masagrator/SaltyNX",
     "source_type": "github_release"
   },
   "sigpatches": {
@@ -776,17 +743,17 @@
     "category": "Essential",
     "default": false,
     "descriptions": {
-      "de": "Ermöglicht inoffizielle Anwendungen.",
+      "de": "Erm\u00f6glicht inoffizielle Anwendungen.",
       "en": "Enables unofficial applications.",
       "es": "Permite aplicaciones no oficiales.",
       "fr": "Permet des applications non officielles.",
       "id": "Mengaktifkan aplikasi tidak resmi.",
       "it": "Abilita applicazioni non ufficiali.",
-      "ja": "非公式アプリケーションを有効にします。",
-      "ko": "비공식 응용 프로그램을 활성화합니다.",
-      "pt": "Permite aplicativos não oficiais.",
-      "ru": "Включает неофициальные приложения.",
-      "zh": "启用非官方应用程序。"
+      "ja": "\u975e\u516c\u5f0f\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u3092\u6709\u52b9\u306b\u3057\u307e\u3059\u3002",
+      "ko": "\ube44\uacf5\uc2dd \uc751\uc6a9 \ud504\ub85c\uadf8\ub7a8\uc744 \ud65c\uc131\ud654\ud569\ub2c8\ub2e4.",
+      "pt": "Permite aplicativos n\u00e3o oficiais.",
+      "ru": "\u0412\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u043d\u0435\u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f.",
+      "zh": "\u542f\u7528\u975e\u5b98\u65b9\u5e94\u7528\u7a0b\u5e8f\u3002"
     },
     "name": "Sigpatches",
     "processing_steps": [
@@ -810,15 +777,15 @@
     "descriptions": {
       "de": "Eine minimale Neuimplementierung des Barrel.",
       "en": "A minimal reimplementation of the barrel.",
-      "es": "Una reimplementación mínima del barrel.",
-      "fr": "Une réimplémentation minimale du barrel.",
+      "es": "Una reimplementaci\u00f3n m\u00ednima del barrel.",
+      "fr": "Une r\u00e9impl\u00e9mentation minimale du barrel.",
       "id": "Implementasi ulang minimalis dari Tinfoil.",
       "it": "Una reimplementazione minima del barrel.",
-      "ja": "バレルの最小限の再実装。",
-      "ko": "배럴의 최소한의 재구현.",
-      "pt": "Uma reimplementação mínima do barrel.",
-      "ru": "Минимальная перереализация barrel.",
-      "zh": "barrel的最小化重新实现。"
+      "ja": "\u30d0\u30ec\u30eb\u306e\u6700\u5c0f\u9650\u306e\u518d\u5b9f\u88c5\u3002",
+      "ko": "\ubc30\ub7f4\uc758 \ucd5c\uc18c\ud55c\uc758 \uc7ac\uad6c\ud604.",
+      "pt": "Uma reimplementa\u00e7\u00e3o m\u00ednima do barrel.",
+      "ru": "\u041c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u0435\u0440\u0435\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f barrel.",
+      "zh": "barrel\u7684\u6700\u5c0f\u5316\u91cd\u65b0\u5b9e\u73b0\u3002"
     },
     "name": "Sphaira",
     "processing_steps": [
@@ -843,14 +810,14 @@
       "de": "Zeigt FPS, Temperaturen und Taktraten an.",
       "en": "Displays FPS, temps, and clock speeds.",
       "es": "Muestra FPS, temperaturas y velocidades de reloj.",
-      "fr": "Affiche les FPS, les températures et les vitesses d'horloge.",
+      "fr": "Affiche les FPS, les temp\u00e9ratures et les vitesses d'horloge.",
       "id": "Menampilkan FPS, suhu, dan kecepatan clock.",
-      "it": "Mostra FPS, temperature e velocità di clock.",
-      "ja": "FPS、温度、クロック速度を表示します。",
-      "ko": "FPS, 온도, 클럭 속도를 표시합니다.",
+      "it": "Mostra FPS, temperature e velocit\u00e0 di clock.",
+      "ja": "FPS\u3001\u6e29\u5ea6\u3001\u30af\u30ed\u30c3\u30af\u901f\u5ea6\u3092\u8868\u793a\u3057\u307e\u3059\u3002",
+      "ko": "FPS, \uc628\ub3c4, \ud074\ub7ed \uc18d\ub3c4\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.",
       "pt": "Exibe FPS, temperaturas e velocidades de clock.",
-      "ru": "Отображает FPS, температуры и тактовые частоты.",
-      "zh": "显示FPS、温度和时钟速度。"
+      "ru": "\u041e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u0435\u0442 FPS, \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b \u0438 \u0442\u0430\u043a\u0442\u043e\u0432\u044b\u0435 \u0447\u0430\u0441\u0442\u043e\u0442\u044b.",
+      "zh": "\u663e\u793aFPS\u3001\u6e29\u5ea6\u548c\u65f6\u949f\u901f\u5ea6\u3002"
     },
     "name": "Status Monitor Overlay",
     "processing_steps": [
@@ -872,17 +839,17 @@
     "category": "Tesla Overlays",
     "default": false,
     "descriptions": {
-      "de": "Systemmodul für Overclocking.",
+      "de": "Systemmodul f\u00fcr Overclocking.",
       "en": "Sysmodule for overclocking.",
-      "es": "Módulo del sistema para overclocking.",
-      "fr": "Module système pour l'overclocking.",
+      "es": "M\u00f3dulo del sistema para overclocking.",
+      "fr": "Module syst\u00e8me pour l'overclocking.",
       "id": "Sysmodule untuk overclocking.",
       "it": "Modulo di sistema per l'overclocking.",
-      "ja": "オーバークロック用のシステムモジュール。",
-      "ko": "오버클러킹을 위한 시스템 모듈.",
-      "pt": "Módulo do sistema para overclocking.",
-      "ru": "Системный модуль для разгона.",
-      "zh": "用于超频的系统模块。"
+      "ja": "\u30aa\u30fc\u30d0\u30fc\u30af\u30ed\u30c3\u30af\u7528\u306e\u30b7\u30b9\u30c6\u30e0\u30e2\u30b8\u30e5\u30fc\u30eb\u3002",
+      "ko": "\uc624\ubc84\ud074\ub7ec\ud0b9\uc744 \uc704\ud55c \uc2dc\uc2a4\ud15c \ubaa8\ub4c8.",
+      "pt": "M\u00f3dulo do sistema para overclocking.",
+      "ru": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u043b\u044f \u0440\u0430\u0437\u0433\u043e\u043d\u0430.",
+      "zh": "\u7528\u4e8e\u8d85\u9891\u7684\u7cfb\u7edf\u6a21\u5757\u3002"
     },
     "name": "sys-clk",
     "processing_steps": [
@@ -910,15 +877,15 @@
     "descriptions": {
       "de": "Ein Systemmodul zum Anwenden von Laufzeit-Code-Patches.",
       "en": "A sysmodule to apply runtime code patches.",
-      "es": "Un módulo del sistema para aplicar parches de código en tiempo de ejecución.",
-      "fr": "Un module système pour appliquer des correctifs de code en temps réel.",
+      "es": "Un m\u00f3dulo del sistema para aplicar parches de c\u00f3digo en tiempo de ejecuci\u00f3n.",
+      "fr": "Un module syst\u00e8me pour appliquer des correctifs de code en temps r\u00e9el.",
       "id": "Sysmodule untuk menerapkan code patch saat runtime.",
       "it": "Un modulo di sistema per applicare patch di codice in tempo reale.",
-      "ja": "実行時にコードパッチを適用するシステムモジュール。",
-      "ko": "런타임 코드 패치를 적용하기 위한 시스템 모듈.",
-      "pt": "Um módulo do sistema para aplicar patches de código em tempo de execução.",
-      "ru": "Системный модуль для применения патчей кода во время выполнения.",
-      "zh": "用于应用运行时代码补丁的系统模块。"
+      "ja": "\u5b9f\u884c\u6642\u306b\u30b3\u30fc\u30c9\u30d1\u30c3\u30c1\u3092\u9069\u7528\u3059\u308b\u30b7\u30b9\u30c6\u30e0\u30e2\u30b8\u30e5\u30fc\u30eb\u3002",
+      "ko": "\ub7f0\ud0c0\uc784 \ucf54\ub4dc \ud328\uce58\ub97c \uc801\uc6a9\ud558\uae30 \uc704\ud55c \uc2dc\uc2a4\ud15c \ubaa8\ub4c8.",
+      "pt": "Um m\u00f3dulo do sistema para aplicar patches de c\u00f3digo em tempo de execu\u00e7\u00e3o.",
+      "ru": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u043b\u044f \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u043f\u0430\u0442\u0447\u0435\u0439 \u043a\u043e\u0434\u0430 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f.",
+      "zh": "\u7528\u4e8e\u5e94\u7528\u8fd0\u884c\u65f6\u4ee3\u7801\u8865\u4e01\u7684\u7cfb\u7edf\u6a21\u5757\u3002"
     },
     "name": "Sys-patch",
     "processing_steps": [
@@ -942,15 +909,15 @@
     "descriptions": {
       "de": "Tesla-Overlay zur Verwaltung von Systemmodulen.",
       "en": "Tesla overlay for managing sysmodules.",
-      "es": "Superposición de Tesla para gestionar módulos del sistema.",
-      "fr": "Superposition Tesla pour gérer les modules système.",
+      "es": "Superposici\u00f3n de Tesla para gestionar m\u00f3dulos del sistema.",
+      "fr": "Superposition Tesla pour g\u00e9rer les modules syst\u00e8me.",
       "id": "Tesla overlay untuk mengelola sysmodule.",
       "it": "Overlay Tesla per gestire i moduli di sistema.",
-      "ja": "システムモジュールを管理するためのTeslaオーバーレイ。",
-      "ko": "시스템 모듈 관리를 위한 Tesla 오버레이.",
-      "pt": "Sobreposição Tesla para gerenciar módulos do sistema.",
-      "ru": "Оверлей Tesla для управления системными модулями.",
-      "zh": "用于管理系统模块的Tesla覆盖层。"
+      "ja": "\u30b7\u30b9\u30c6\u30e0\u30e2\u30b8\u30e5\u30fc\u30eb\u3092\u7ba1\u7406\u3059\u308b\u305f\u3081\u306eTesla\u30aa\u30fc\u30d0\u30fc\u30ec\u30a4\u3002",
+      "ko": "\uc2dc\uc2a4\ud15c \ubaa8\ub4c8 \uad00\ub9ac\ub97c \uc704\ud55c Tesla \uc624\ubc84\ub808\uc774.",
+      "pt": "Sobreposi\u00e7\u00e3o Tesla para gerenciar m\u00f3dulos do sistema.",
+      "ru": "\u041e\u0432\u0435\u0440\u043b\u0435\u0439 Tesla \u0434\u043b\u044f \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u043c\u0438 \u043c\u043e\u0434\u0443\u043b\u044f\u043c\u0438.",
+      "zh": "\u7528\u4e8e\u7ba1\u7406\u7cfb\u7edf\u6a21\u5757\u7684Tesla\u8986\u76d6\u5c42\u3002"
     },
     "name": "Sysmodules Overlay",
     "processing_steps": [
@@ -976,14 +943,14 @@
       "de": "Ein payload-basierter Datei-Explorer.",
       "en": "A payload-based file explorer.",
       "es": "Un explorador de archivos basado en payload.",
-      "fr": "Un explorateur de fichiers basé sur payload.",
+      "fr": "Un explorateur de fichiers bas\u00e9 sur payload.",
       "id": "File explorer berbasis payload.",
       "it": "Un esploratore di file basato su payload.",
-      "ja": "ペイロードベースのファイルエクスプローラー。",
-      "ko": "페이로드 기반 파일 탐색기.",
+      "ja": "\u30da\u30a4\u30ed\u30fc\u30c9\u30d9\u30fc\u30b9\u306e\u30d5\u30a1\u30a4\u30eb\u30a8\u30af\u30b9\u30d7\u30ed\u30fc\u30e9\u30fc\u3002",
+      "ko": "\ud398\uc774\ub85c\ub4dc \uae30\ubc18 \ud30c\uc77c \ud0d0\uc0c9\uae30.",
       "pt": "Um explorador de arquivos baseado em payload.",
-      "ru": "Файловый менеджер на основе пейлоада.",
-      "zh": "基于负载的文件资源管理器。"
+      "ru": "\u0424\u0430\u0439\u043b\u043e\u0432\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043f\u0435\u0439\u043b\u043e\u0430\u0434\u0430.",
+      "zh": "\u57fa\u4e8e\u8d1f\u8f7d\u7684\u6587\u4ef6\u8d44\u6e90\u7ba1\u7406\u5668\u3002"
     },
     "name": "TegraExplorer",
     "processing_steps": [
@@ -1008,15 +975,15 @@
     "descriptions": {
       "de": "Titel-Manager. Verwendet weniger Speicher.",
       "en": "Title manager. Uses less memory.",
-      "es": "Gestor de títulos. Usa menos memoria.",
-      "fr": "Gestionnaire de titres. Utilise moins de mémoire.",
+      "es": "Gestor de t\u00edtulos. Usa menos memoria.",
+      "fr": "Gestionnaire de titres. Utilise moins de m\u00e9moire.",
       "id": "Title manager. Memakai lebih sedikit memori.",
       "it": "Gestore di titoli. Usa meno memoria.",
-      "ja": "タイトルマネージャー。メモリ使用量が少ない。",
-      "ko": "타이틀 관리자. 메모리를 적게 사용합니다.",
-      "pt": "Gerenciador de títulos. Usa menos memória.",
-      "ru": "Менеджер заголовков. Использует меньше памяти.",
-      "zh": "标题管理器。使用更少的内存。"
+      "ja": "\u30bf\u30a4\u30c8\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u3002\u30e1\u30e2\u30ea\u4f7f\u7528\u91cf\u304c\u5c11\u306a\u3044\u3002",
+      "ko": "\ud0c0\uc774\ud2c0 \uad00\ub9ac\uc790. \uba54\ubaa8\ub9ac\ub97c \uc801\uac8c \uc0ac\uc6a9\ud569\ub2c8\ub2e4.",
+      "pt": "Gerenciador de t\u00edtulos. Usa menos mem\u00f3ria.",
+      "ru": "\u041c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u043e\u0432. \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u043c\u0435\u043d\u044c\u0448\u0435 \u043f\u0430\u043c\u044f\u0442\u0438.",
+      "zh": "\u6807\u9898\u7ba1\u7406\u5668\u3002\u4f7f\u7528\u66f4\u5c11\u7684\u5185\u5b58\u3002"
     },
     "name": "Tinfoil Applet version",
     "processing_steps": [
@@ -1040,15 +1007,15 @@
     "descriptions": {
       "de": "Selbstinstallierender Titel-Manager.",
       "en": "Title manager self-installer.",
-      "es": "Instalador automático de gestor de títulos.",
+      "es": "Instalador autom\u00e1tico de gestor de t\u00edtulos.",
       "fr": "Auto-installateur de gestionnaire de titres.",
       "id": "Self-installer untuk title manager.",
       "it": "Auto-installatore di gestore di titoli.",
-      "ja": "タイトルマネージャーの自己インストーラー。",
-      "ko": "타이틀 관리자 자동 설치 프로그램.",
-      "pt": "Auto-instalador de gerenciador de títulos.",
-      "ru": "Самоустанавливающийся менеджер заголовков.",
-      "zh": "标题管理器自安装程序。"
+      "ja": "\u30bf\u30a4\u30c8\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u306e\u81ea\u5df1\u30a4\u30f3\u30b9\u30c8\u30fc\u30e9\u30fc\u3002",
+      "ko": "\ud0c0\uc774\ud2c0 \uad00\ub9ac\uc790 \uc790\ub3d9 \uc124\uce58 \ud504\ub85c\uadf8\ub7a8.",
+      "pt": "Auto-instalador de gerenciador de t\u00edtulos.",
+      "ru": "\u0421\u0430\u043c\u043e\u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0449\u0438\u0439\u0441\u044f \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u043e\u0432.",
+      "zh": "\u6807\u9898\u7ba1\u7406\u5668\u81ea\u5b89\u88c5\u7a0b\u5e8f\u3002"
     },
     "name": "Tinfoil NSP version",
     "processing_steps": [
@@ -1073,15 +1040,15 @@
     "descriptions": {
       "de": "Ein Open-Source-NSP-Installer.",
       "en": "An open-source NSP installer.",
-      "es": "Un instalador NSP de código abierto.",
+      "es": "Un instalador NSP de c\u00f3digo abierto.",
       "fr": "Un installateur NSP open-source.",
       "id": "Installer NSP open-source.",
       "it": "Un installatore NSP open-source.",
-      "ja": "オープンソースのNSPインストーラー。",
-      "ko": "오픈 소스 NSP 설치 프로그램.",
-      "pt": "Um instalador NSP de código aberto.",
-      "ru": "Установщик NSP с открытым исходным кодом.",
-      "zh": "开源NSP安装程序。"
+      "ja": "\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u306eNSP\u30a4\u30f3\u30b9\u30c8\u30fc\u30e9\u30fc\u3002",
+      "ko": "\uc624\ud508 \uc18c\uc2a4 NSP \uc124\uce58 \ud504\ub85c\uadf8\ub7a8.",
+      "pt": "Um instalador NSP de c\u00f3digo aberto.",
+      "ru": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0449\u0438\u043a NSP \u0441 \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u043c \u0438\u0441\u0445\u043e\u0434\u043d\u044b\u043c \u043a\u043e\u0434\u043e\u043c.",
+      "zh": "\u5f00\u6e90NSP\u5b89\u88c5\u7a0b\u5e8f\u3002"
     },
     "name": "Tinwoo Installer",
     "processing_steps": [
@@ -1103,17 +1070,17 @@
     "category": "Tesla Overlays",
     "default": false,
     "descriptions": {
-      "de": "Eine neue Neuimplementierung des Tesla-Menüs.",
+      "de": "Eine neue Neuimplementierung des Tesla-Men\u00fcs.",
       "en": "A new Tesla menu reimplementation.",
-      "es": "Una nueva reimplementación del menú Tesla.",
-      "fr": "Une nouvelle réimplémentation du menu Tesla.",
+      "es": "Una nueva reimplementaci\u00f3n del men\u00fa Tesla.",
+      "fr": "Une nouvelle r\u00e9impl\u00e9mentation du menu Tesla.",
       "id": "Implementasi ulang baru untuk menu Tesla.",
       "it": "Una nuova reimplementazione del menu Tesla.",
-      "ja": "Teslaメニューの新しい再実装。",
-      "ko": "Tesla 메뉴의 새로운 재구현.",
-      "pt": "Uma nova reimplementação do menu Tesla.",
-      "ru": "Новая перереализация меню Tesla.",
-      "zh": "Tesla菜单的新重新实现。"
+      "ja": "Tesla\u30e1\u30cb\u30e5\u30fc\u306e\u65b0\u3057\u3044\u518d\u5b9f\u88c5\u3002",
+      "ko": "Tesla \uba54\ub274\uc758 \uc0c8\ub85c\uc6b4 \uc7ac\uad6c\ud604.",
+      "pt": "Uma nova reimplementa\u00e7\u00e3o do menu Tesla.",
+      "ru": "\u041d\u043e\u0432\u0430\u044f \u043f\u0435\u0440\u0435\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u043c\u0435\u043d\u044e Tesla.",
+      "zh": "Tesla\u83dc\u5355\u7684\u65b0\u91cd\u65b0\u5b9e\u73b0\u3002"
     },
     "name": "Ultrahand Overlay",
     "processing_steps": [
